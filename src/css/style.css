@@ -128,12 +128,12 @@ button:hover {
     animation: header-animation 3s ease-in-out 1s infinite;
 }
 .eight {
-    width: 0.5rem;
-    height: 0.5rem;
+    width: 0.4rem;
+    height: 0.4rem;
     background-color: rgb(248, 248, 147);
-    top: 50%;
-    right: 15%;
-    animation: header-animation 3s ease-in-out 2s infinite;
+    top: 60%;
+    right: 7%;
+    animation: header-animation 3s ease-in-out 3s infinite;
 }
 .nine {
     width: 0.3rem;
@@ -326,9 +326,6 @@ a:hover {
     grid-row: 2 / 3;
 }
 
-/* Chevron */
-
-
   /* Kontakt */
 .kontakt-wrapper{
     background-color: rgb(247, 247, 247);
@@ -345,14 +342,6 @@ a:hover {
     clip-path: polygon(50% 13%, 100% 0%, 100% 100%, 0 100%, 0 0);
 
 }
-/* .kontakt-block-unten {
-    position: relative;
-    z-index: -1;
-    width: 100vw;
-    height: 8vh;
-    background-color: rgb(88, 97, 117);
-    margin-top: -5rem;
-} */
 .kontakt-text-titel {
     border-bottom: 3px solid white;
     text-transform: uppercase;
@@ -458,10 +447,10 @@ textarea:focus {
 
 @media (max-width: 768px) {
     .anna {
-        padding-top: 18rem;
+        padding-top: 17rem;
     }
     .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
 
     .nav a {
@@ -471,10 +460,14 @@ textarea:focus {
         display: flex;
         flex-wrap: wrap;
     }
+    .text-titel {
+        margin-bottom: 2rem;
+    }
     .me-img {
         width: 80%;
     }
     .aboutme {
+        margin-top: 2rem;
         font-size: 1rem;
         width: 400px;
     }
@@ -493,22 +486,3 @@ textarea:focus {
         width: 400px;
     }
 }
-
-/* @media (min-width: 720px) {
-    .header h1 {
-       font-size: 2rem;
-    }
-    .nav a {
-        font-size: 1rem;
-    }
-    .me-img {
-        width: 100%;
-    }
-
-}
-
-@media (min-width: 900px) {
-    .header {
-        width: 100%;
-    }
-} */
