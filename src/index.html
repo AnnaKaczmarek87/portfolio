@@ -4,10 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a35516ae9f.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="header" id="jumphome">
+      <div class="item one"></div>
+      <div class="item two"></div>
+      <div class="item three"></div>
+      <div class="item four"></div>
+      <div class="item five"></div>
+      <div class="item six"></div>
+      <div class="item seven"></div>
+      <div class="item eight"></div>
+      <div class="item nine"></div>
+      <div class="haupt-titel">
+          <h1 class="anna">Hallo, ich bin <span>Anna Kaczmarek</span></h1>
+          <h1>Designer & Web Developer</h1>
+           <button><a href="#jumpwork">Meine Arbeit</a><i class="fa-solid fa-arrow-down"></i></button>
+      </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#jumphome" id="home">Home</a></li>
+            <li><a href="#jumpabout">About</a></li>
+            <li><a href="#jumpwork">Work</a></li>
+            <li><a href="#jumpcontact">Kontakt</a></li>
+        </ul>
+    </div>
+    <div class="text-titel"><h2 id="jumpabout">About</h2></div>
+    <div class="about" id="jumpabout" >
+        <div class="me-img"></div>
+        <p class="aboutme">Ich bin Anna, aber meine Freunde nennen mich Nana.
+            Ich wurde 1987 in Polen geboren und habe dort einen Abschluss an einer vierjährigen Kunstschule absolviert. Später habe ich in Berlin erfolgreich Kommunikationsdesign studiert. Seit 2007 lebe ich in Berlin, mache gerne Sport und achte auf gesunde Ernährung. 
+            Im Mai 2020 habe ich mir einen Traum erfüllt und den Onlineshop <a href="https://www.nanawechange.com/" target="_blank">NANAWECHANGE</a> gegründet. Obwohl meine selbstbedruckten T-Shirts ein Erfolg gewesen sind, habe ich mich entschlossen meiner ursprünglichen Berufung, nämlich der Malerei zu widmen und genauso ist auch die neue Geschäftsidee entstanden.</p>
+    </div>
+    <div class="text-titel-1"><h2 id="jumpwork">Work</h2></div>
+    <div class="work" id="jumpwork">
+        <div class="mein work-1"></div>
+        <div class="mein work-2"></div>
+        <div class="mein work-3"></div>
+        <div class="mein work-4"></div>
+        <div class="mein work-5"></div>
+        <div class="mein work-6"></div>
+    </div> 
+    </div>
+    <div class="kontakt-wrapper" id="jumpcontact">
+<div class="kontakt">
+    <form class="form" action="" method="post">
+        <p class="kontakt-text-titel">Kontakt</p>
+        <p class="kontakt-text">Hast Du Fragen? Dann nimm Kontakt zu mir auf.</p>
+        <div>
+            <label for="Name"></label>
+            <input type="text" id="vorname" name="vorname" placeholder="Name">
+        </div>
+        <div>
+            <label for="Email"></label>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="Nachricht"></label>
+            <textarea name="nachricht" id="nachricht" cols="30" rows="10" placeholder="Deine Nachricht"></textarea>
+        </div>
+        <div>
+            <button type="submit" class="senden-button">Senden</button>
+        </div>
+    </form>
+</div>
+</div>
+<div class="footer">
+    <div class="linked icon"><i class="fa-brands fa-linkedin-in"></i></div>
+    <div class="facebook icon"><i class="fa-brands fa-facebook-f"></i></div>
+    <div class="instagram icon"><i class="fa-brands fa-instagram"></i></div>
+</div>
+<p class="ende-text">Anna Kaczmarek <span id="span"> © 2022 </span></p>
+
     <!-- Custom scripts, edit above this line -->
     <script src="scripts/index.js"></script>
   </body>
